@@ -1,38 +1,67 @@
 let filmes = [
-    {
-      titulo: "Alien Romulus",
-      link: "https://www.youtube.com/watch?v=IPMxNH2sz7E",
-      descricao: `"Alien Romulus" parece ser um filme interessante! O título sugere uma ligação com a franquia "Alien"
-           e elementos da mitologia romana, com "Romulus" possivelmente se referindo a um personagem ou local. A chamada "Saiba mais" provavelmente leva 
-           a um site com mais informações sobre a produção.`,
-      saibaMais: "https://tecnoblog.net/responde/a-ordem-dos-filmes-da-franquia-alien/"
-    },
-    {
-      titulo: "DEADPOOL E WOLVERINE filme completo dublado",
-      link: "https://www.youtube.com/watch?v=TFCcg0VwI34",
-      descricao: "Prepare-se para uma dose dupla de ação e sarcasmo com 'Deadpool e Wolverine'! Este filme coloca lado a lado o mercenário tagarela Deadpool e o mutante raivoso Wolverine em uma aventura explosiva. Espere combates brutais, piadas ácidas e uma parceria improvável que vai deixar você sem fôlego.",
-      saibaMais: "https://www.exemplosite.com/filme2" 
-    },
-    {
-      titulo: "FILME - DRAGON BALL Z - O NOVO SAYAJIN MALIGNO (Dublado em português)",
-      link: "https://www.youtube.com/watch?v=pFL0tm1XFLg",
-      descricao: "Em 'Dragon Ball Z: O Novo Sayajin Maligno', um novo e poderoso inimigo surge das cinzas do passado: um Sayajin lendário com sede de vingança contra Goku e sua linhagem. Prepare-se para batalhas épicas, transformações incríveis e uma ameaça que pode destruir o universo!",
-      saibaMais: "https://www.exemplosite.com/filme3" 
-    },
-    {
-      titulo: "O Protetor",
-      link: "https://www.youtube.com/watch?v=NSY-eobbqlU",
-      descricao: "Em 'O Protetor', Denzel Washington interpreta Robert McCall, um ex-agente secreto assombrado por seu passado. Quando uma jovem é brutalmente atacada, McCall decide quebrar sua promessa de nunca mais recorrer à violência. Usando suas habilidades letais, ele se torna um anjo vingador, protegendo os inocentes e enfrentando a fúria de criminosos implacáveis.",
-      saibaMais: "https://www.exemplosite.com/filme4" 
-    },
-    {
-      titulo: "ANUNNAKI FILME 1 - dublado em português",
-      link: "https://www.youtube.com/watch?v=iPQAi2BEeIg",
-      descricao: `"Anunnaki Filme 1" mergulha nas teorias ancestrais e nos mistérios que cercam essa civilização enigmática. Prepare-se para questionar tudo o que você sabe sobre a história da humanidade enquanto desvenda segredos milenares e a possível influência dos Anunnaki em nosso passado. Dublado em português para uma imersão completa.`,
-      saibaMais: "https://www.exemplosite.com/filme5" 
-    }
-  ];
-  
-  export default filmes;
-  
- 
+  // ... seus filmes anteriores ...
+
+  {
+      titulo: "O Homem de Aço",
+      link: "https://www.youtube.com/watch?v=T6DJCGm33Vc",
+      descricao: "A origem do Superman é reimaginada em um filme épico que explora a jornada de um alienígena para se tornar o maior herói da Terra.",
+      saibaMais: "https://www.exemplosite.com/filme6"
+  },
+  {
+      titulo: "Interestelar",
+      link: "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+      descricao: "Uma equipe de astronautas embarca em uma missão para encontrar um novo lar para a humanidade, viajando para os confins do universo.",
+      saibaMais: "https://www.exemplosite.com/filme7"
+  },
+  {
+      titulo: "Vingadores: Ultimato",
+      link: "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+      descricao: "Os Vingadores se unem mais uma vez para desfazer o estrago causado por Thanos e restaurar o universo.",
+      saibaMais: "https://www.exemplosite.com/filme8"
+  },
+  {
+      titulo: "Mad Max: Estrada da Fúria",
+      link: "https://www.youtube.com/watch?v=hEJnMQG9YFs",
+      descricao: "Em um futuro pós-apocalíptico, Max Rockatansky se junta a Imperator Furiosa em uma jornada épica através do deserto.",
+      saibaMais: "https://www.exemplosite.com/filme9"
+  },
+  {
+      titulo: "Coringa",
+      link: "https://www.youtube.com/watch?v=zAGVQLHKEbo",
+      descricao: "Uma exploração sombria da mente de Arthur Fleck, um comediante fracassado que se transforma no icônico vilão da DC Comics.",
+      saibaMais: "https://www.exemplosite.com/filme10"
+  },
+  {
+      titulo: "Parasita",
+      link: "https://www.youtube.com/watch?v=Ki4f9jR4jzc",
+      descricao: "Uma sátira social que explora a desigualdade social através da história de duas famílias coreanas muito diferentes.",
+      saibaMais: "https://www.exemplosite.com/filme11"
+  },
+  {
+      titulo: "O Poderoso Chefão",
+      link: "https://www.youtube.com/watch?v-sY1S349qGg",
+      descricao: "Um clássico do cinema que conta a história da família Corleone, envolvida no mundo do crime organizado.",
+      saibaMais: "https://www.exemplosite.com/filme12"
+  },
+  {
+      titulo: "A Lista de Schindler",
+      link: "https://www.youtube.com/watch?v=dPwvXi8Yc60",
+      descricao: "Um drama histórico baseado em fatos reais que retrata a história de Oskar Schindler, um industrial alemão que salvou a vida de mais de mil judeus durante o Holocausto.",
+      saibaMais: "https://www.exemplosite.com/filme13"
+  },
+  {
+      titulo: "O Senhor dos Anéis: A Sociedade do Anel",
+      link: "https://www.youtube.com/watch?v=V75dMMIW2B4",
+      descricao: "A jornada épica de Frodo Bolseiro para destruir o Um Anel e salvar a Terra Média.",
+      saibaMais: "https://www.exemplosite.com/filme14"
+  },
+  {
+      titulo: "Matrix",
+      link: "https://www.youtube.com/watch?v=m8e-FF8MForms",
+      descricao: "Um hacker descobre que a realidade que ele conhece é uma simulação criada por máquinas.",
+      saibaMais: "https://www.exemplosite.com/filme15"
+  },
+  // ... continue adicionando mais filmes ...
+];
+
+export default filmes;
